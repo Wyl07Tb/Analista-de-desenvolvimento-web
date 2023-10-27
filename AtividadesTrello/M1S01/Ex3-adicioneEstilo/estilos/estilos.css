@@ -1,0 +1,15 @@
+.paginacao button {
+    padding: 10px;
+    border-radius: calc(30vw);
+    margin: 20px;
+}
+
+h1 {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+body {
+    background-image: url(/AtividadesTrello/M1S01/Ex3-adicioneEstilo/imagens/assoalhoMadeira.png);
+    background-size: auto;
+    background-position: center;
+}

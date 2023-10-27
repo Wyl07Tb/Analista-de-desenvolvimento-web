@@ -1,0 +1,34 @@
+body {
+    background-image: url(/AtividadesTrello/M1S01/Ex4-paginaDeFotos/imagens/assoalhoMadeira.png);
+    background-size: cover;
+}
+
+button a {
+    cursor: pointer;
+    color: rgb(93, 180, 180);
+    text-decoration: none;
+}
+
+.paginacao button {
+    padding: 10px;
+    border-radius: calc(30vw);
+    margin: 20px;
+}
+
+h1 {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.imagensDoProfissional img{
+    width: calc(30vw);
+    padding: calc(1vw);
+    filter: grayscale(1);
+    border-radius: 10%;
+}
+
+.imagensDoProfissional img:hover{
+    transition: all 1s ease-in;
+    border-radius: 50vw;
+    filter: grayscale(0);
+}
+
