@@ -17,25 +17,49 @@ body {
 }
 
 button a {
-    color: rgb(93, 180, 180);
+    color: rgb(98, 216, 216);
     text-decoration: none;
 }
 
 .paginacao button {
     cursor: pointer;
-    padding: 10px;
+    padding: 10px 20px;
     border-radius: 10dvw;
+    box-shadow: 3px 5px black;
 }
 
 .paginacao :hover {
+    color:rgb(130, 245, 255);
+    background-color: black;
     transition: all 0.5s ease-in-out;
     transform: scaleX(1) translateY(-10px);
+    box-shadow: 0px 0px 30px rgb(130, 245, 255);
 }
 
 h1 {
-    font-family: Verdana, Geneva, Tahoma, sans-serif;
-    text-wrap: nowrap;
-    font-size: 100%;
+    font-family: 'Tangerine', cursive;
+    font-size: 30px;
+    text-align: center;
+    margin: 0;
+    padding-top: 20px;
+    color: rgb(239, 234, 78);
+    text-shadow: 2px 4px 2px black;
+}
+
+.pDescricaoDaPagina {
+    font-weight: bold;
+    text-align: center;
+}
+
+h2 {
+    text-align: center;
+    color: brown;
+    font-weight: bold;
+}
+
+ol {
+    color: rgb(0, 0, 255);
+    text-shadow: 2px 4px 12px black;
 }
 
 .imagensDoProfissional img{
@@ -74,4 +98,5 @@ footer :hover{
 
 footer img{
     padding: 10px 10px 4px;
+    
 }
