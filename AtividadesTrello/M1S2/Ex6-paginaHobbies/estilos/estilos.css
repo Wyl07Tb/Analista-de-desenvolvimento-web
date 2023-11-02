@@ -16,7 +16,6 @@ body {
 button a {
     color: rgb(0, 47, 255);
     text-decoration: none;
-    
 }
 .paginacao {
     position:relative;
@@ -57,9 +56,7 @@ h1 {
     text-shadow: 4px 3px 6px rgb(0, 47, 255);
 }
 
-hr{
-    margin-top: 10px;
-    margin-bottom: 15px;
+hr{margin: 10px 100%;
 }
 h2 {
     text-align: center;
@@ -110,15 +107,21 @@ ol {
     transform: scaleX(1.3);
 }
 
+.cardDecimal {
+    list-style: decimal;
+}
+
 footer {
     border-radius: 50px;
     position:static;
-    border: 10px double black;
+    border: 5px double black;
     text-align: -webkit-center;
     filter: contrast(1.7);
-    background-clip: content-box;
+    background-clip:padding-box;
+    padding: 30px;
     background-size: 100% 100%;
     background-image: url(/AtividadesTrello/M1S2/Ex6-paginaHobbies/imagens/canoa-no-lago.png);
+    border-color: rgb(255, 119, 0);
 }
 
 footer :hover{
@@ -128,6 +131,6 @@ footer :hover{
 
 footer img{
     border-radius: 37%;
-    border: 2px solid grey;
+    border: 2px solid rgb(255, 119, 0);
     padding: 0px 0px 0px;
 }
