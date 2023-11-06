@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+    <head>
+        <meta charset="UTF-8" >
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" >
+        <title>Lanchonete</title>
+    </head>
+    <body>
+        <h1>Lanchonete</h1>
+        <hr>
+        <table border="1">
+        <thead>
+            <tr>
+                <th>Código</th>
+                <th>Produto</th>
+                <th>Valor</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td>1123</td>
+                <td>Hambúrguer</td>
+                <td>R$ 12,00</td>
+            </tr>
+            <tr>
+                <td>3423</td>
+                <td>Sanduíche de pernil</td>
+                <td>R$ 9,00</td>
+            </tr>
+            <tr>
+                <td>4521</td>
+                <td>Bauru</td>
+                <td>R$ 15,00</td>
+            </tr>
+            <tr>
+                <td>5322</td>
+                <td>Sanduíche de mortadela</td>
+                <td>R$ 34,99</td>
+            </tr>
+            </tbody>
+        </table>
+        <hr/>
+
+        <input
+            type="number"
+            name="codigo-produto"
+            id="codigo-produto"
+            placeholder="Código do produto"
+        ><br>
+
+        <input
+            type="number"
+            name="quantidade"
+            id="quantidade"
+            placeholder="Quantidade"
+        ><br>
+
+        <button id="pedir">Fazer Pedido</button>
+
+        <p id="pedido-feito"></p>
+        <p id="valor-pedido"></p>
+
+        <script src="app.js"></script>
+    </body>
+</html>
